@@ -11,6 +11,7 @@ Gem::Specification.new do |s|
   s.homepage          = %q{https://github.com/simplelogica/refinerycms-snippets}
   
   s.add_dependency    'refinerycms-pages', '~> 2.1.0'
+  s.add_dependency    'acts_as_indexed', '~> 0.8.0'
 
   s.files       = `git ls-files`.split("
 ")
