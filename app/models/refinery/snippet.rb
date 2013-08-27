@@ -1,3 +1,5 @@
+require 'acts_as_indexed'
+
 module Refinery
   class Snippet < ActiveRecord::Base
 
